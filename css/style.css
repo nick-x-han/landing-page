@@ -1,0 +1,14 @@
+.quote {
+    background-color: #E5E7EB;
+}
+
+.full-header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex-direction: column;
+}
+
+.full-header subtext {
+    color: #E5E7EB;
+}
