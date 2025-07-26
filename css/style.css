@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     font-size: 18px;
     color: #F9FAF8;
+    min-height: 100vh;
 }
 
 .header {
@@ -95,8 +96,8 @@ a {
     gap: 32px;
 }
 .information img {
-    border: 4px blue solid;
-    border-radius: 8px;
+    border: 4px #3882F6 solid;
+    border-radius: 12px;
     height: 128px;
     width: 128px;
 }
@@ -136,4 +137,36 @@ a {
     align-self: flex-end;
     margin-right: 32px;
     font-weight: bold;
+}
+
+.cta {
+    padding: 64px 128px;
+}
+
+.banner {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.banner .sign-up {
+    border: 1px white solid;
+}
+
+.footer {
+    background-color: black;
+    padding: 32px 0;
+    text-align: center;
+    /* margin-top: auto; */
+}
+
+.main-content {
+    flex-grow: 1;
 }
