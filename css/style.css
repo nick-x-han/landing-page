@@ -17,7 +17,7 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 10px 128px 0;
+    padding: 1% 10% 0;
 }
 
 .logo {
@@ -39,7 +39,7 @@ a {
 .hero {
     display: flex;
     background-color: #1F2937;
-    padding: 64px 128px;
+    padding: 5% 10%;
     justify-content: space-between;
     /* height: 25vh; */
 }
@@ -140,15 +140,16 @@ a {
 }
 
 .cta {
-    padding: 64px 128px;
+    padding: 5% 10%;
 }
 
 .banner {
     background-color: #3882F6;
     border-radius: 8px;
-    padding: 32px 64px;
+    padding: 2.5% 5%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .banner-header {
@@ -158,6 +159,8 @@ a {
 
 .banner .sign-up {
     border: 1px white solid;
+    min-width: max-content;
+    /* flex: initial; */
 }
 
 .footer {
@@ -166,6 +169,12 @@ a {
     text-align: center;
     /* margin-top: auto; */
 }
+
+/* .button-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} */
 
 .main-content {
     flex-grow: 1;
